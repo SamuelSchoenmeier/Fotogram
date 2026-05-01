@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogram</title>
+
+    <link rel="icon" type="img" href="./img/Group.png">
+
+    <link rel="preload" href="/fonts/yusei-magic.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="render()">
+    <header class="main-header">
+      <a class="wrapper" href="./index.html"
+        ><img
+          class="img-main-header"
+          src="./img/Capa_1.png"
+          alt="Fotogram-logo"
+      /></a>
+    </header>
+
+    <main>
+      <h1 class="wrapper-main">My Personal Photo Album</h1>
+      <section class="wrapper-main wrapper-dialog" id="content"></section>
+    </main>
+
+    <dialog id="dialog"></dialog>
+
+    <footer class="main-footer">
+      <div class="footer-curve">
+        <img
+          class="footer-img"
+          src="./img/DA-logo.png"
+          alt="Developer-Akademie"
+        />
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
